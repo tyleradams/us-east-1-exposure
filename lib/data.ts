@@ -70,16 +70,16 @@ export function getFeatureById(serviceId: string, featureId: string): Feature | 
 }
 
 export function getImpactsForService(serviceId: string): EventImpact[] {
-  return data.eventImpacts.filter(i => i.serviceId === serviceId)
+  return data.eventImpacts.filter(i => i.serviceId === serviceId && i.sourceUrl)
 }
 
 export function getImpactsForEvent(eventId: string): EventImpact[] {
-  return data.eventImpacts.filter(i => i.eventId === eventId)
+  return data.eventImpacts.filter(i => i.eventId === eventId && i.sourceUrl)
 }
 
 export function getImpactsForFeature(serviceId: string, featureId: string): EventImpact[] {
   return data.eventImpacts.filter(
-    i => i.serviceId === serviceId && i.featureId === featureId
+    i => i.serviceId === serviceId && i.featureId === featureId && i.sourceUrl
   )
 }
 
@@ -124,12 +124,14 @@ export interface EnrichedImpact extends EventImpact {
 }
 
 export function getEnrichedImpacts(): EnrichedImpact[] {
-  return data.eventImpacts.map(impact => ({
-    ...impact,
-    service: getServiceById(impact.serviceId),
-    event: getEventById(impact.eventId),
-    feature: getFeatureById(impact.serviceId, impact.featureId)
-  }))
+  return data.eventImpacts
+    .filter(impact => impact.sourceUrl) // Only include impacts with source URLs
+    .map(impact => ({
+      ...impact,
+      service: getServiceById(impact.serviceId),
+      event: getEventById(impact.eventId),
+      feature: getFeatureById(impact.serviceId, impact.featureId)
+    }))
 }
 
 // Search function

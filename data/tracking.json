@@ -1,58 +1,539 @@
 {
-  "lastUpdated": "2025-10-23T12:00:00Z",
+  "lastUpdated": "2025-10-24T04:52:00Z",
   "events": [
     {
       "id": "aws-useast1-2025-10-20",
-      "date": "2025-10-20T14:30:00Z",
-      "title": "US-EAST-1 DNS/DynamoDB Outage",
-      "description": "AWS US-EAST-1 region experienced DNS and DynamoDB service failures causing widespread downstream impact",
-      "awsServicesAffected": ["Route53", "DynamoDB"],
+      "date": "2025-10-20T07:11:00Z",
+      "title": "AWS US-EAST-1 Outage",
+      "description": "US-EAST-1 experienced increased error rates and latency across multiple services, causing widespread downstream impact.",
+      "awsServicesAffected": [
+        "Route53",
+        "DynamoDB"
+      ],
       "sources": [
         {
-          "url": "https://health.aws.amazon.com/health/status",
+          "url": "https://aws.amazon.com/message/101925/",
           "type": "aws_health_dashboard",
-          "createdAt": "2025-10-20T16:00:00Z"
-        },
-        {
-          "url": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
-          "type": "news_article",
-          "createdAt": "2025-10-20T17:30:00Z"
+          "createdAt": "2025-10-20T07:30:00Z"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T04:00:00Z"
     }
   ],
   "services": [
     {
-      "id": "fortnite",
-      "name": "Fortnite",
-      "company": "Epic Games",
-      "logoUrl": "https://logo.clearbit.com/epicgames.com",
-      "url": "https://fortnite.com",
+      "id": "facebook",
+      "name": "Facebook",
+      "company": "Meta",
+      "logoUrl": "https://logo.clearbit.com/facebook.com",
+      "url": "https://www.facebook.com",
+      "category": "social",
+      "features": [
+        {
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Load feed, posts, comments"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate account"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "company": "Meta",
+      "logoUrl": "https://logo.clearbit.com/instagram.com",
+      "url": "https://www.instagram.com",
+      "category": "social",
+      "features": [
+        {
+          "id": "feed",
+          "name": "Feed",
+          "description": "View posts/reels"
+        },
+        {
+          "id": "stories",
+          "name": "Stories",
+          "description": "View and post stories"
+        },
+        {
+          "id": "dm",
+          "name": "Direct Messages",
+          "description": "Send/receive DMs"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "company": "Meta",
+      "logoUrl": "https://logo.clearbit.com/whatsapp.com",
+      "url": "https://www.whatsapp.com",
+      "category": "communication",
+      "features": [
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "Send/receive messages"
+        },
+        {
+          "id": "calls",
+          "name": "Calls",
+          "description": "Voice/video calls"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "company": "Signal Foundation",
+      "logoUrl": "https://logo.clearbit.com/signal.org",
+      "url": "https://signal.org",
+      "category": "communication",
+      "features": [
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "E2E encrypted messages"
+        },
+        {
+          "id": "calls",
+          "name": "Calls",
+          "description": "E2E voice/video calls"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "psn",
+      "name": "PlayStation Network",
+      "company": "Sony",
+      "logoUrl": "https://logo.clearbit.com/playstation.com",
+      "url": "https://www.playstation.com",
       "category": "gaming",
       "features": [
         {
-          "id": "matchmaking",
-          "name": "Matchmaking",
-          "description": "Ability to join and start game matches"
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
         },
         {
-          "id": "friend-messaging",
-          "name": "Friend Messaging",
-          "description": "In-game chat and friend communication"
+          "id": "multiplayer",
+          "name": "Multiplayer",
+          "description": "Online multiplayer"
         },
         {
-          "id": "item-shop",
-          "name": "Item Shop",
-          "description": "In-game store for purchasing cosmetics"
+          "id": "store",
+          "name": "Store",
+          "description": "Digital purchases"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "xbox-network",
+      "name": "Xbox Network",
+      "company": "Microsoft",
+      "logoUrl": "https://logo.clearbit.com/xbox.com",
+      "url": "https://www.xbox.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
+        },
+        {
+          "id": "multiplayer",
+          "name": "Multiplayer",
+          "description": "Online multiplayer"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "company": "Valve",
+      "logoUrl": "https://logo.clearbit.com/steampowered.com",
+      "url": "https://store.steampowered.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "storefront",
+          "name": "Storefront",
+          "description": "Browse/purchase games"
+        },
+        {
+          "id": "downloads",
+          "name": "Downloads",
+          "description": "Install and update games"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "company": "Crunchyroll, LLC",
+      "logoUrl": "https://logo.clearbit.com/crunchyroll.com",
+      "url": "https://www.crunchyroll.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Stream anime"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to service"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "sling-tv",
+      "name": "Sling TV",
+      "company": "DISH Network",
+      "logoUrl": "https://logo.clearbit.com/sling.com",
+      "url": "https://www.sling.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "live-tv",
+          "name": "Live TV",
+          "description": "Watch live channels"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to service"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "company": "Apple",
+      "logoUrl": "https://logo.clearbit.com/apple.com",
+      "url": "https://tv.apple.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Stream Apple TV+ content"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Sign in with Apple ID"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "company": "Warner Bros. Discovery",
+      "logoUrl": "https://logo.clearbit.com/max.com",
+      "url": "https://www.max.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Stream Max content"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to Max"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "company": "Tidal",
+      "logoUrl": "https://logo.clearbit.com/tidal.com",
+      "url": "https://tidal.com",
+      "category": "music",
+      "features": [
+        {
+          "id": "audio-playback",
+          "name": "Audio Playback",
+          "description": "Stream music"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate account"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "company": "Pinterest, Inc.",
+      "logoUrl": "https://logo.clearbit.com/pinterest.com",
+      "url": "https://www.pinterest.com",
+      "category": "social",
+      "features": [
+        {
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Load boards and pins"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate account"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "company": "Atlassian",
+      "logoUrl": "https://logo.clearbit.com/trello.com",
+      "url": "https://trello.com",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "boards",
+          "name": "Boards",
+          "description": "Access boards/cards"
+        },
+        {
+          "id": "api",
+          "name": "API",
+          "description": "3rd-party integrations and bots"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "godaddy",
+      "name": "GoDaddy",
+      "company": "GoDaddy",
+      "logoUrl": "https://logo.clearbit.com/godaddy.com",
+      "url": "https://www.godaddy.com",
+      "category": "infrastructure",
+      "features": [
+        {
+          "id": "domains-dns",
+          "name": "Domains & DNS",
+          "description": "Manage domains/DNS"
+        },
+        {
+          "id": "dashboard",
+          "name": "Dashboard",
+          "description": "Account/hosting dashboard"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "chime",
+      "name": "Chime",
+      "company": "Chime Financial",
+      "logoUrl": "https://logo.clearbit.com/chime.com",
+      "url": "https://www.chime.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "app-access",
+          "name": "App Access",
+          "description": "Open/use banking app"
+        },
+        {
+          "id": "p2p",
+          "name": "P2P/Transfers",
+          "description": "Send/receive money"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "halifax",
+      "name": "Halifax",
+      "company": "Lloyds Banking Group",
+      "logoUrl": "https://logo.clearbit.com/halifax.co.uk",
+      "url": "https://www.halifax.co.uk",
+      "category": "finance",
+      "features": [
+        {
+          "id": "online-banking",
+          "name": "Online Banking",
+          "description": "Account access and transfers"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "bank-of-scotland",
+      "name": "Bank of Scotland",
+      "company": "Lloyds Banking Group",
+      "logoUrl": "https://logo.clearbit.com/bankofscotland.co.uk",
+      "url": "https://www.bankofscotland.co.uk",
+      "category": "finance",
+      "features": [
+        {
+          "id": "online-banking",
+          "name": "Online Banking",
+          "description": "Account access and transfers"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "govuk",
+      "name": "GOV.UK",
+      "company": "UK Government",
+      "logoUrl": "https://logo.clearbit.com/gov.uk",
+      "url": "https://www.gov.uk",
+      "category": "government",
+      "features": [
+        {
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Access central government services/info"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "nyt-crossword",
+      "name": "NYT Crossword",
+      "company": "The New York Times",
+      "logoUrl": "https://logo.clearbit.com/nytimes.com",
+      "url": "https://www.nytimes.com/crossword",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "daily-crossword",
+          "name": "Daily Crossword",
+          "description": "Load/play crossword puzzle"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "epic-online-services",
+      "name": "Epic Online Services",
+      "company": "Epic Games",
+      "logoUrl": "https://logo.clearbit.com/epicgames.com",
+      "url": "https://dev.epicgames.com/en-US/services",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "auth",
+          "name": "Auth",
+          "description": "Account/entitlement auth"
+        },
+        {
+          "id": "friends",
+          "name": "Friends",
+          "description": "Friends/party services"
+        },
+        {
+          "id": "matchmaking",
+          "name": "Matchmaking",
+          "description": "Session/match orchestration"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "boost-mobile",
+      "name": "Boost Mobile",
+      "company": "Boost Mobile",
+      "logoUrl": "https://logo.clearbit.com/boostmobile.com",
+      "url": "https://www.boostmobile.com",
+      "category": "telecom",
+      "features": [
+        {
+          "id": "app-access",
+          "name": "App Access",
+          "description": "Open and use the app"
+        },
+        {
+          "id": "account-services",
+          "name": "Account Services",
+          "description": "Manage account and payments"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "goodreads",
+      "name": "Goodreads",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/goodreads.com",
+      "url": "https://www.goodreads.com",
+      "category": "social",
+      "features": [
+        {
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Load lists, reviews, and pages"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate account"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "company": "xAI",
+      "logoUrl": "https://logo.clearbit.com/x.ai",
+      "url": "https://x.ai",
+      "category": "ai",
+      "features": [
+        {
+          "id": "answers",
+          "name": "Answers",
+          "description": "Chat/answer engine UI"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
       "id": "snapchat",
       "name": "Snapchat",
-      "company": "Snap Inc",
+      "company": "Snap Inc.",
       "logoUrl": "https://logo.clearbit.com/snapchat.com",
       "url": "https://snapchat.com",
       "category": "social",
@@ -68,75 +549,33 @@
           "description": "Viewing and posting stories"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "alexa",
-      "name": "Alexa",
-      "company": "Amazon",
-      "logoUrl": "https://logo.clearbit.com/amazon.com",
-      "url": "https://alexa.amazon.com",
-      "category": "voice_assistant",
+      "id": "reddit",
+      "name": "Reddit",
+      "company": "Reddit, Inc.",
+      "logoUrl": "https://logo.clearbit.com/reddit.com",
+      "url": "https://www.reddit.com",
+      "category": "social",
       "features": [
         {
-          "id": "voice-commands",
-          "name": "Voice Commands",
-          "description": "Processing voice requests and commands"
-        },
-        {
-          "id": "smart-home",
-          "name": "Smart Home Control",
-          "description": "Controlling smart home devices"
-        }
-      ],
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "company": "OpenAI",
-      "logoUrl": "https://logo.clearbit.com/openai.com",
-      "url": "https://chat.openai.com",
-      "category": "ai",
-      "features": [
-        {
-          "id": "chat-interface",
-          "name": "Chat Interface",
-          "description": "Main conversational interface"
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Load feeds, posts, and comments"
         },
         {
           "id": "api",
           "name": "API",
-          "description": "ChatGPT API access"
+          "description": "Third-party app and bot API access"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "roblox",
-      "name": "Roblox",
-      "company": "Roblox Corporation",
-      "logoUrl": "https://logo.clearbit.com/roblox.com",
-      "url": "https://roblox.com",
-      "category": "gaming",
-      "features": [
-        {
-          "id": "game-access",
-          "name": "Game Access",
-          "description": "Ability to launch and play games"
-        },
-        {
-          "id": "catalog",
-          "name": "Catalog",
-          "description": "Avatar shop and marketplace"
-        }
-      ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
       "id": "discord",
       "name": "Discord",
-      "company": "Discord Inc",
+      "company": "Discord Inc.",
       "logoUrl": "https://logo.clearbit.com/discord.com",
       "url": "https://discord.com",
       "category": "communication",
@@ -152,23 +591,128 @@
           "description": "Voice channels and calls"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "wordle",
-      "name": "Wordle",
-      "company": "The New York Times",
-      "logoUrl": "https://logo.clearbit.com/nytimes.com",
-      "url": "https://www.nytimes.com/games/wordle",
+      "id": "slack",
+      "name": "Slack",
+      "company": "Slack Technologies (Salesforce)",
+      "logoUrl": "https://logo.clearbit.com/slack.com",
+      "url": "https://slack.com",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "Channels and DMs"
+        },
+        {
+          "id": "calls",
+          "name": "Calls",
+          "description": "Huddles and calls"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "company": "Microsoft",
+      "logoUrl": "https://logo.clearbit.com/microsoft.com",
+      "url": "https://teams.microsoft.com",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "Chat and channels"
+        },
+        {
+          "id": "calls",
+          "name": "Calls",
+          "description": "Meetings and calls"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "company": "Zoom Video Communications",
+      "logoUrl": "https://logo.clearbit.com/zoom.us",
+      "url": "https://zoom.us",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "video-calls",
+          "name": "Video Calls",
+          "description": "Join/host meetings"
+        },
+        {
+          "id": "screen-sharing",
+          "name": "Screen Sharing",
+          "description": "Share screen in meetings"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "att",
+      "name": "AT&T",
+      "company": "AT&T Inc.",
+      "logoUrl": "https://logo.clearbit.com/att.com",
+      "url": "https://www.att.com",
+      "category": "telecom",
+      "features": [
+        {
+          "id": "network-services",
+          "name": "Network Services",
+          "description": "Internet/cellular account services"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "company": "Epic Games",
+      "logoUrl": "https://logo.clearbit.com/epicgames.com",
+      "url": "https://www.fortnite.com",
       "category": "gaming",
       "features": [
         {
-          "id": "daily-puzzle",
-          "name": "Daily Puzzle",
-          "description": "Access to daily word puzzle"
+          "id": "matchmaking",
+          "name": "Matchmaking",
+          "description": "Join and start matches"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to game services"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "company": "Roblox Corporation",
+      "logoUrl": "https://logo.clearbit.com/roblox.com",
+      "url": "https://www.roblox.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "game-access",
+          "name": "Game Access",
+          "description": "Launch and play experiences"
+        },
+        {
+          "id": "catalog",
+          "name": "Catalog",
+          "description": "Avatar shop and marketplace"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
       "id": "epic-games-store",
@@ -189,201 +733,2383 @@
           "description": "Download and update games"
         }
       ],
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "wordle",
+      "name": "Wordle",
+      "company": "The New York Times",
+      "logoUrl": "https://logo.clearbit.com/nytimes.com",
+      "url": "https://www.nytimes.com/games/wordle",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "daily-puzzle",
+          "name": "Daily Puzzle",
+          "description": "Access to daily puzzle"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "clash-of-clans",
+      "name": "Clash of Clans",
+      "company": "Supercell",
+      "logoUrl": "https://logo.clearbit.com/supercell.com",
+      "url": "https://supercell.com/en/games/clashofclans/",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to game"
+        },
+        {
+          "id": "matchmaking",
+          "name": "Matchmaking",
+          "description": "Join battles"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "pokemon-go",
+      "name": "Pok\u00e9mon GO",
+      "company": "Niantic",
+      "logoUrl": "https://logo.clearbit.com/nianticlabs.com",
+      "url": "https://pokemongolive.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
+        },
+        {
+          "id": "map-load",
+          "name": "Map Load",
+          "description": "Load map and nearby spawns"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/twitch.tv",
+      "url": "https://www.twitch.tv",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "streaming",
+          "name": "Streaming",
+          "description": "Watch and broadcast streams"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authenticate to Twitch"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "ubisoft-connect",
+      "name": "Ubisoft Connect",
+      "company": "Ubisoft",
+      "logoUrl": "https://logo.clearbit.com/ubisoft.com",
+      "url": "https://ubisoftconnect.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
+        },
+        {
+          "id": "multiplayer",
+          "name": "Multiplayer",
+          "description": "Online multiplayer services"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "pubg",
+      "name": "PUBG: Battlegrounds",
+      "company": "Krafton",
+      "logoUrl": "https://logo.clearbit.com/pubg.com",
+      "url": "https://www.pubg.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "matchmaking",
+          "name": "Matchmaking",
+          "description": "Join and start matches"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "vrchat",
+      "name": "VRChat",
+      "company": "VRChat Inc.",
+      "logoUrl": "https://logo.clearbit.com/vrchat.com",
+      "url": "https://hello.vrchat.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "worlds",
+          "name": "Worlds",
+          "description": "Load and join worlds"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Account sign-in"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "company": "Netflix, Inc.",
+      "logoUrl": "https://logo.clearbit.com/netflix.com",
+      "url": "https://www.netflix.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Play movies and shows"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Sign-in to Netflix"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "company": "Disney",
+      "logoUrl": "https://logo.clearbit.com/hulu.com",
+      "url": "https://www.hulu.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Play Hulu content"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "prime-video",
+      "name": "Prime Video",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/primevideo.com",
+      "url": "https://www.primevideo.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Play Prime Video content"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "company": "Disney",
+      "logoUrl": "https://logo.clearbit.com/disneyplus.com",
+      "url": "https://www.disneyplus.com",
+      "category": "streaming",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Play Disney+ content"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Sign-in to Disney+"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "company": "Spotify AB",
+      "logoUrl": "https://logo.clearbit.com/spotify.com",
+      "url": "https://www.spotify.com",
+      "category": "music",
+      "features": [
+        {
+          "id": "audio-playback",
+          "name": "Audio Playback",
+          "description": "Stream music"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Sign-in to Spotify"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon.com Retail",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/amazon.com",
+      "url": "https://www.amazon.com",
+      "category": "ecommerce",
+      "features": [
+        {
+          "id": "storefront",
+          "name": "Storefront",
+          "description": "Browse and search products"
+        },
+        {
+          "id": "checkout",
+          "name": "Checkout",
+          "description": "Cart and payment processing"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "mcdonalds",
+      "name": "McDonald\u2019s App",
+      "company": "McDonald\u2019s",
+      "logoUrl": "https://logo.clearbit.com/mcdonalds.com",
+      "url": "https://www.mcdonalds.com",
+      "category": "food",
+      "features": [
+        {
+          "id": "ordering",
+          "name": "Ordering",
+          "description": "Mobile food ordering"
+        },
+        {
+          "id": "rewards",
+          "name": "Rewards",
+          "description": "Loyalty and offers"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart",
+      "company": "Instacart",
+      "logoUrl": "https://logo.clearbit.com/instacart.com",
+      "url": "https://www.instacart.com",
+      "category": "food",
+      "features": [
+        {
+          "id": "ordering",
+          "name": "Ordering",
+          "description": "Place grocery orders"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks",
+      "company": "Starbucks",
+      "logoUrl": "https://logo.clearbit.com/starbucks.com",
+      "url": "https://www.starbucks.com",
+      "category": "food",
+      "features": [
+        {
+          "id": "mobile-order",
+          "name": "Mobile Order",
+          "description": "Order ahead in app"
+        },
+        {
+          "id": "recharge",
+          "name": "Card Recharge",
+          "description": "Reload Starbucks card"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "company": "Shopify Inc.",
+      "logoUrl": "https://logo.clearbit.com/shopify.com",
+      "url": "https://www.shopify.com",
+      "category": "ecommerce",
+      "features": [
+        {
+          "id": "merchant-storefronts",
+          "name": "Merchant Storefronts",
+          "description": "Hosted online stores"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "square",
+      "name": "Square",
+      "company": "Block, Inc.",
+      "logoUrl": "https://logo.clearbit.com/squareup.com",
+      "url": "https://squareup.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "payments",
+          "name": "Payments",
+          "description": "POS and online payments"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "company": "PayPal Holdings",
+      "logoUrl": "https://logo.clearbit.com/paypal.com",
+      "url": "https://www.paypal.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "payments",
+          "name": "Payments",
+          "description": "Send and receive money"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "venmo",
+      "name": "Venmo",
+      "company": "PayPal",
+      "logoUrl": "https://logo.clearbit.com/venmo.com",
+      "url": "https://venmo.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "p2p-payments",
+          "name": "P2P Payments",
+          "description": "Peer-to-peer transfers"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "company": "Coinbase Global, Inc.",
+      "logoUrl": "https://logo.clearbit.com/coinbase.com",
+      "url": "https://www.coinbase.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "trading",
+          "name": "Trading",
+          "description": "Buy/sell crypto"
+        },
+        {
+          "id": "deposits-withdrawals",
+          "name": "Transfers",
+          "description": "Deposits and withdrawals"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "robinhood",
+      "name": "Robinhood",
+      "company": "Robinhood Markets, Inc.",
+      "logoUrl": "https://logo.clearbit.com/robinhood.com",
+      "url": "https://robinhood.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "trading",
+          "name": "Trading",
+          "description": "Stock and crypto trading"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "lloyds-bank",
+      "name": "Lloyds Bank",
+      "company": "Lloyds Banking Group",
+      "logoUrl": "https://logo.clearbit.com/lloydsbank.com",
+      "url": "https://www.lloydsbank.com",
+      "category": "finance",
+      "features": [
+        {
+          "id": "online-banking",
+          "name": "Online Banking",
+          "description": "Account access"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "hmrc",
+      "name": "HMRC",
+      "company": "UK Government",
+      "logoUrl": "https://logo.clearbit.com/hmrc.gov.uk",
+      "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "category": "government",
+      "features": [
+        {
+          "id": "website-access",
+          "name": "Website Access",
+          "description": "Access HMRC online services"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "delta",
+      "name": "Delta Air Lines",
+      "company": "Delta Air Lines, Inc.",
+      "logoUrl": "https://logo.clearbit.com/delta.com",
+      "url": "https://www.delta.com",
+      "category": "travel",
+      "features": [
+        {
+          "id": "booking",
+          "name": "Booking",
+          "description": "Search and purchase flights"
+        },
+        {
+          "id": "check-in",
+          "name": "Check-in",
+          "description": "Mobile/online check-in"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "united-airlines",
+      "name": "United Airlines",
+      "company": "United Airlines, Inc.",
+      "logoUrl": "https://logo.clearbit.com/united.com",
+      "url": "https://www.united.com",
+      "category": "travel",
+      "features": [
+        {
+          "id": "booking",
+          "name": "Booking",
+          "description": "Search and purchase flights"
+        },
+        {
+          "id": "check-in",
+          "name": "Check-in",
+          "description": "Mobile/online check-in"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "southwest",
+      "name": "Southwest Airlines",
+      "company": "Southwest Airlines Co.",
+      "logoUrl": "https://logo.clearbit.com/southwest.com",
+      "url": "https://www.southwest.com",
+      "category": "travel",
+      "features": [
+        {
+          "id": "booking",
+          "name": "Booking",
+          "description": "Search and purchase flights"
+        },
+        {
+          "id": "check-in",
+          "name": "Check-in",
+          "description": "Mobile/online check-in"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "lyft",
+      "name": "Lyft",
+      "company": "Lyft, Inc.",
+      "logoUrl": "https://logo.clearbit.com/lyft.com",
+      "url": "https://www.lyft.com",
+      "category": "transportation",
+      "features": [
+        {
+          "id": "ride-hailing",
+          "name": "Ride Hailing",
+          "description": "Request rides"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "verizon",
+      "name": "Verizon",
+      "company": "Verizon Communications",
+      "logoUrl": "https://logo.clearbit.com/verizon.com",
+      "url": "https://www.verizon.com",
+      "category": "telecom",
+      "features": [
+        {
+          "id": "account-services",
+          "name": "Account Services",
+          "description": "Account management portal"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "company": "Strava, Inc.",
+      "logoUrl": "https://logo.clearbit.com/strava.com",
+      "url": "https://www.strava.com",
+      "category": "fitness",
+      "features": [
+        {
+          "id": "activity-sync",
+          "name": "Activity Sync",
+          "description": "Upload and sync activities"
+        },
+        {
+          "id": "feed",
+          "name": "Feed",
+          "description": "View athlete feed"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "alexa",
+      "name": "Alexa",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/amazon.com",
+      "url": "https://alexa.amazon.com",
+      "category": "smart_home",
+      "features": [
+        {
+          "id": "voice-commands",
+          "name": "Voice Commands",
+          "description": "Process voice requests"
+        },
+        {
+          "id": "smart-home",
+          "name": "Smart Home Control",
+          "description": "Control smart devices"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/ring.com",
+      "url": "https://ring.com",
+      "category": "smart_home",
+      "features": [
+        {
+          "id": "video-stream",
+          "name": "Video Stream",
+          "description": "Live/recorded camera video"
+        },
+        {
+          "id": "notifications",
+          "name": "Notifications",
+          "description": "Motion and doorbell alerts"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "blink",
+      "name": "Blink",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/blinkforhome.com",
+      "url": "https://blinkforhome.com",
+      "category": "smart_home",
+      "features": [
+        {
+          "id": "video-stream",
+          "name": "Video Stream",
+          "description": "Live/recorded camera video"
+        },
+        {
+          "id": "notifications",
+          "name": "Notifications",
+          "description": "Motion alerts"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "eight-sleep",
+      "name": "Eight Sleep",
+      "company": "Eight Sleep",
+      "logoUrl": "https://logo.clearbit.com/eightsleep.com",
+      "url": "https://www.eightsleep.com",
+      "category": "iot",
+      "features": [
+        {
+          "id": "bed-control",
+          "name": "Bed Control",
+          "description": "Adjust elevation and modes"
+        },
+        {
+          "id": "temperature-control",
+          "name": "Temperature Control",
+          "description": "Thermoregulation control"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "life360",
+      "name": "Life360",
+      "company": "Life360, Inc.",
+      "logoUrl": "https://logo.clearbit.com/life360.com",
+      "url": "https://www.life360.com",
+      "category": "safety",
+      "features": [
+        {
+          "id": "location-updates",
+          "name": "Location Updates",
+          "description": "Real-time location sharing"
+        },
+        {
+          "id": "notifications",
+          "name": "Notifications",
+          "description": "Place and safety alerts"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "company": "OpenAI",
+      "logoUrl": "https://logo.clearbit.com/openai.com",
+      "url": "https://chat.openai.com",
+      "category": "ai",
+      "features": [
+        {
+          "id": "chat-interface",
+          "name": "Chat Interface",
+          "description": "Web chat UI"
+        },
+        {
+          "id": "api",
+          "name": "API",
+          "description": "ChatGPT API access"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "company": "Perplexity AI",
+      "logoUrl": "https://logo.clearbit.com/perplexity.ai",
+      "url": "https://www.perplexity.ai",
+      "category": "ai",
+      "features": [
+        {
+          "id": "answers",
+          "name": "Answers",
+          "description": "Answer engine UI"
+        },
+        {
+          "id": "search",
+          "name": "Search",
+          "description": "Web and knowledge search"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "company": "Duolingo, Inc.",
+      "logoUrl": "https://logo.clearbit.com/duolingo.com",
+      "url": "https://www.duolingo.com",
+      "category": "education",
+      "features": [
+        {
+          "id": "app-access",
+          "name": "App Access",
+          "description": "Open and use the app"
+        },
+        {
+          "id": "lessons",
+          "name": "Lessons",
+          "description": "Load and complete lessons"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas (LMS)",
+      "company": "Instructure",
+      "logoUrl": "https://logo.clearbit.com/instructure.com",
+      "url": "https://www.instructure.com/canvas",
+      "category": "education",
+      "features": [
+        {
+          "id": "lms-access",
+          "name": "LMS Access",
+          "description": "Access courses and content"
+        },
+        {
+          "id": "submissions",
+          "name": "Submissions",
+          "description": "Submit assignments"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge",
+      "company": "Match Group",
+      "logoUrl": "https://logo.clearbit.com/hinge.co",
+      "url": "https://hinge.co",
+      "category": "social",
+      "features": [
+        {
+          "id": "app-access",
+          "name": "App Access",
+          "description": "Open and use the app"
+        },
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "Send and receive messages"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "myfitnesspal",
+      "name": "MyFitnessPal",
+      "company": "MyFitnessPal, Inc.",
+      "logoUrl": "https://logo.clearbit.com/myfitnesspal.com",
+      "url": "https://www.myfitnesspal.com",
+      "category": "health",
+      "features": [
+        {
+          "id": "app-access",
+          "name": "App Access",
+          "description": "Open and use the app"
+        },
+        {
+          "id": "sync",
+          "name": "Sync",
+          "description": "Sync diary and workouts"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "adobe-cc",
+      "name": "Adobe Creative Cloud",
+      "company": "Adobe",
+      "logoUrl": "https://logo.clearbit.com/adobe.com",
+      "url": "https://www.adobe.com/creativecloud.html",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "cloud-services",
+          "name": "Cloud Services",
+          "description": "Libraries, sync, cloud docs"
+        },
+        {
+          "id": "auth",
+          "name": "Auth",
+          "description": "Creative Cloud authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "company": "Microsoft",
+      "logoUrl": "https://logo.clearbit.com/microsoft.com",
+      "url": "https://www.microsoft365.com",
+      "category": "productivity",
+      "features": [
+        {
+          "id": "outlook-login",
+          "name": "Outlook Login",
+          "description": "Sign-in to Outlook/Exchange"
+        },
+        {
+          "id": "office-online",
+          "name": "Office Online",
+          "description": "Word/Excel/PowerPoint Online"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "collegeboard",
+      "name": "College Board",
+      "company": "College Board",
+      "logoUrl": "https://logo.clearbit.com/collegeboard.org",
+      "url": "https://www.collegeboard.org",
+      "category": "education",
+      "features": [
+        {
+          "id": "website",
+          "name": "Website",
+          "description": "Website and account access"
+        },
+        {
+          "id": "sign-in",
+          "name": "Sign-in",
+          "description": "Authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "nytimes",
+      "name": "New York Times (Main Site)",
+      "company": "The New York Times",
+      "logoUrl": "https://logo.clearbit.com/nytimes.com",
+      "url": "https://www.nytimes.com",
+      "category": "news",
+      "features": [
+        {
+          "id": "site-access",
+          "name": "Site Access",
+          "description": "Load articles and sections"
+        },
+        {
+          "id": "login",
+          "name": "Login",
+          "description": "Subscriber authentication"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "company": "Vimeo, Inc.",
+      "logoUrl": "https://logo.clearbit.com/vimeo.com",
+      "url": "https://vimeo.com",
+      "category": "video",
+      "features": [
+        {
+          "id": "video-playback",
+          "name": "Video Playback",
+          "description": "Play hosted videos"
+        },
+        {
+          "id": "uploads",
+          "name": "Uploads",
+          "description": "Upload new videos"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "whatnot",
+      "name": "Whatnot",
+      "company": "Whatnot",
+      "logoUrl": "https://logo.clearbit.com/whatnot.com",
+      "url": "https://www.whatnot.com",
+      "category": "ecommerce",
+      "features": [
+        {
+          "id": "live-shopping",
+          "name": "Live Shopping",
+          "description": "Live auctions and streams"
+        },
+        {
+          "id": "checkout",
+          "name": "Checkout",
+          "description": "Purchases and payments"
+        }
+      ],
+      "createdAt": "2025-10-24T00:00:00Z"
     }
   ],
   "eventImpacts": [
     {
-      "id": "impact-001",
+      "id": "impact-0041",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "fortnite",
+      "serviceId": "facebook",
+      "featureId": "site-access",
+      "impactType": "degraded",
+      "description": "Feed and site access intermittent for many users during AWS outage",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0042",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "instagram",
+      "featureId": "feed",
+      "impactType": "degraded",
+      "description": "Feed/stories intermittently failed to load",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/major-aws-outage-disrupts-amazons-services-dozen-others-including-gmail-you-tube-and-instagram/ch6Cp1jR3Y3",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0043",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "whatsapp",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Message send/receive delays and failures observed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.aljazeera.com/news/2025/10/21/what-caused-amazons-aws-outage-and-why-did-so-many-major-apps-go-offline",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0044",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "signal",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Elevated message delivery failures coincident with AWS outage",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/amazon-web-services-outage-websites-offline-rcna238594",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0045",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "psn",
+      "featureId": "multiplayer",
+      "impactType": "degraded",
+      "description": "Online multiplayer and store features intermittently unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.playstation.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0046",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "xbox-network",
+      "featureId": "multiplayer",
+      "impactType": "degraded",
+      "description": "Reports of multiplayer instability and login issues aligning with AWS outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://support.xbox.com/xbox-live-status",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0047",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "steam",
+      "featureId": "storefront",
+      "impactType": "degraded",
+      "description": "Store and downloads intermittently unavailable during outage period",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0048",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "crunchyroll",
+      "featureId": "video-playback",
+      "impactType": "degraded",
+      "description": "Playback errors and timeouts for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0049",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "sling-tv",
+      "featureId": "live-tv",
+      "impactType": "full_outage",
+      "description": "Live TV and app access unavailable for a period",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0050",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "apple-tv-plus",
+      "featureId": "video-playback",
+      "impactType": "degraded",
+      "description": "Playback failures/timeouts reported during AWS incident",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0051",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "max",
+      "featureId": "video-playback",
+      "impactType": "degraded",
+      "description": "Streaming instability linked to AWS outage period",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://builtin.com/articles/aws-outage-what-happened",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0052",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "tidal",
+      "featureId": "audio-playback",
+      "impactType": "degraded",
+      "description": "Users experienced playback errors and login issues",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0053",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "pinterest",
+      "featureId": "site-access",
+      "impactType": "degraded",
+      "description": "Pins/boards failed to load for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0054",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "trello",
+      "featureId": "boards",
+      "impactType": "full_outage",
+      "description": "Boards and cards inaccessible for a period",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.atlassian.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0055",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "godaddy",
+      "featureId": "domains-dns",
+      "impactType": "degraded",
+      "description": "DNS/domain management and dashboard access unstable",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0056",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "chime",
+      "featureId": "app-access",
+      "impactType": "full_outage",
+      "description": "App access and transfers unavailable for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.yahoo.com/news/articles/chime-down-thousands-report-issues-121645348.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0057",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "halifax",
+      "featureId": "online-banking",
+      "impactType": "full_outage",
+      "description": "Online banking down for customers during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.ibtimes.co.uk/aws-outage-affects-major-uk-banks-what-do-if-you-missed-payments-1748962",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0058",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "bank-of-scotland",
+      "featureId": "online-banking",
+      "impactType": "full_outage",
+      "description": "Online banking down for customers during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.gazetteherald.co.uk/news/national/uk-today/25555334.lloyds-bank-customers-report-issues-online-banking/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0059",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "govuk",
+      "featureId": "site-access",
+      "impactType": "degraded",
+      "description": "Government portal/services intermittently inaccessible",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.publictechnology.net/2025/10/20/business-and-industry/governments-incident-response-arrangements-kick-in-after-major-aws-outages/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0060",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "nyt-crossword",
+      "featureId": "daily-crossword",
+      "impactType": "degraded",
+      "description": "Daily crossword failed to load for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0061",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-online-services",
+      "featureId": "auth",
+      "impactType": "full_outage",
+      "description": "Account/entitlement auth unavailable; downstream game logins failed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0062",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "disney-plus",
+      "featureId": "video-playback",
+      "impactType": "degraded",
+      "description": "Playback errors/timeouts during the outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.laughingplace.com/entertainment/aws-outage-causes-disruption-for-disney-apps-and-streaming/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0063",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "spotify",
+      "featureId": "audio-playback",
+      "impactType": "degraded",
+      "description": "Music streaming intermittently failed to start",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0064",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "microsoft-teams",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Message send/receive instability aligned with outage",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://uwm.edu/outages/list/microsoft-teams-and-m365-related-issues/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0065",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "microsoft-teams",
+      "featureId": "calls",
+      "impactType": "degraded",
+      "description": "Call setup and join failures for some users",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0066",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "microsoft-365",
+      "featureId": "outlook-login",
+      "impactType": "degraded",
+      "description": "Outlook sign-in and mailbox access errors",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0067",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "microsoft-365",
+      "featureId": "office-online",
+      "impactType": "degraded",
+      "description": "Office Online document load/save timeouts",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0068",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "adobe-cc",
+      "featureId": "cloud-services",
+      "impactType": "degraded",
+      "description": "Cloud libraries and sync unavailable for some users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://community.adobe.com/t5/acrobat-discussions/adobe-cloud-down/td-p/15553457",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0069",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "canvas",
+      "featureId": "lms-access",
+      "impactType": "full_outage",
+      "description": "Canvas LMS endpoints failed to load",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.instructure.com/incidents/rvd23ht9ht9k",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0070",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "canvas",
+      "featureId": "submissions",
+      "impactType": "degraded",
+      "description": "Assignment submission attempts erroring or timing out",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.instructure.com/incidents/rvd23ht9ht9k",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0071",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "collegeboard",
+      "featureId": "website",
+      "impactType": "full_outage",
+      "description": "CollegeBoard website intermittently down",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0072",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "nytimes",
+      "featureId": "site-access",
+      "impactType": "degraded",
+      "description": "Article pages and sections intermittently failed to load",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0073",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "verizon",
+      "featureId": "account-services",
+      "impactType": "degraded",
+      "description": "Account portal/app instability during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://losbanosenterprise.com/california/2025/verizon-outage-disrupts-service-in-los-banos-and-nationwide-aws-cloud-failure-blamed/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0074",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "boost-mobile",
+      "featureId": "app-access",
+      "impactType": "full_outage",
+      "description": "App access failed; account actions unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://cordcuttersnews.com/nationwide-boost-mobile-outage-sparks-widespread-frustration-here-is-what-is-happening/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0075",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "twitch",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Sign-in attempts erroring while streaming was down",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.twitch.tv",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0076",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "blink",
+      "featureId": "video-stream",
+      "impactType": "full_outage",
+      "description": "Live/recorded video inaccessible in app",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0077",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "eight-sleep",
+      "featureId": "temperature-control",
+      "impactType": "degraded",
+      "description": "Thermoregulation and bed settings unresponsive/laggy",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0078",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "hinge",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Conversations failed to load; send attempts failed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.tomsguide.com/news/live/amazon-outage-october-2025",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0079",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "duolingo",
+      "featureId": "app-access",
+      "impactType": "full_outage",
+      "description": "App wouldn\u2019t load for many; offline mode required",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://betanews.com/2025/10/20/amazon-web-services-outage-takes-down-duolingo-snapchat-roblox-and-other-major-sites/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0080",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "vimeo",
+      "featureId": "uploads",
+      "impactType": "degraded",
+      "description": "New video uploads and processing delayed/failed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0081",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "whatnot",
+      "featureId": "live-shopping",
+      "impactType": "full_outage",
+      "description": "Live streams and auctions unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0082",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "psn",
+      "featureId": "store",
+      "impactType": "degraded",
+      "description": "PSN Store intermittently unreachable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.playstation.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0083",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "psn",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "PSN login errors observed during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.playstation.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0084",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "xbox-network",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Xbox sign-in instability coincident with AWS outage",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://support.xbox.com/xbox-live-status",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0085",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "ubisoft-connect",
+      "featureId": "multiplayer",
+      "impactType": "degraded",
+      "description": "Online services for Ubisoft titles unstable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.resetera.com/threads/fyi-global-ubisoft-outage-cant-login-to-their-online-services-due-to-aws.1329610/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0086",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "pubg",
       "featureId": "matchmaking",
       "impactType": "full_outage",
-      "description": "Matchmaking completely unavailable during outage window",
+      "description": "Matchmaking unavailable; sessions could not start",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com/incidents/xyz",
-      "sourceType": "official_status_page",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "sourceUrl": "https://somoshermanos.mx/pubg-down-for-many-players-aws-cloud-outage-disrupts-login-and-matchmaking-services/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-002",
+      "id": "impact-0087",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "fortnite",
-      "featureId": "friend-messaging",
-      "impactType": "no_impact",
-      "description": "Messaging remained operational throughout outage",
-      "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com/incidents/xyz",
-      "sourceType": "official_status_page",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-003",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "fortnite",
-      "featureId": "item-shop",
+      "serviceId": "vrchat",
+      "featureId": "worlds",
       "impactType": "degraded",
-      "description": "Slow load times but purchases still processed",
-      "verificationStatus": "user_reported",
-      "sourceUrl": "https://reddit.com/r/FortNiteBR/comments/xyz",
-      "sourceType": "user_reports",
-      "createdAt": "2025-10-23T11:30:00Z"
+      "description": "Worlds failed to load; frequent disconnects",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.vrchat.com/incidents/njf7ml10kq11",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-004",
+      "id": "impact-0088",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "pokemon-go",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Failed sign-ins and token errors",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0089",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "pokemon-go",
+      "featureId": "map-load",
+      "impactType": "degraded",
+      "description": "Map data load failures/timeouts",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://mobilegamer.biz/aws-outage-downs-supercell-games-pokemon-go-roblox-fortnite-and-more/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0090",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "clash-of-clans",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Login/auth errors; matchmaking impacted downstream",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://x.com/ClashofClans/status/1980174853626794117",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0091",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "instacart",
+      "featureId": "ordering",
+      "impactType": "full_outage",
+      "description": "Cart/checkout unavailable; orders could not be placed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.deliverysocal.com/aws-outage-down-for-delivery-apps/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0092",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "starbucks",
+      "featureId": "mobile-order",
+      "impactType": "full_outage",
+      "description": "Order-ahead in app failed for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0093",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "starbucks",
+      "featureId": "recharge",
+      "impactType": "degraded",
+      "description": "Starbucks card reload attempts intermittently failed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.nrn.com/restaurant-technology/the-aws-outage-left-many-restaurants-scrambling",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0094",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "disney-plus",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Sign-in requests returned errors/timeouts",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.laughingplace.com/entertainment/aws-outage-causes-disruption-for-disney-apps-and-streaming/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0095",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "spotify",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Account login failures for some users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0096",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "goodreads",
+      "featureId": "site-access",
+      "impactType": "degraded",
+      "description": "Site pages intermittently unreachable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0097",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "coinbase",
+      "featureId": "deposits-withdrawals",
+      "impactType": "degraded",
+      "description": "Transfers experienced delays and failures",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.coinbase.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0098",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "grok",
+      "featureId": "answers",
+      "impactType": "full_outage",
+      "description": "Chat/answering unavailable during AWS downtime",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://x.com/grok/status/1980289119197741228",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0099",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "discord",
+      "featureId": "voice-chat",
+      "impactType": "no_impact",
+      "description": "Voice channels stable while messaging was delayed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://discordstatus.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0100",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "roblox",
+      "featureId": "catalog",
+      "impactType": "full_outage",
+      "description": "Avatar shop and marketplace unavailable.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.roblox.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0101",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-online-services",
+      "featureId": "friends",
+      "impactType": "degraded",
+      "description": "Friends/party services unreliable; intermittent errors.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0102",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-online-services",
+      "featureId": "matchmaking",
+      "impactType": "full_outage",
+      "description": "Session/match orchestration failed during outage window.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0103",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "steam",
+      "featureId": "downloads",
+      "impactType": "degraded",
+      "description": "Game downloads/updates intermittently failed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://mezha.net/eng/bukvy/amazon-cloud-outage-hits-zoom-snapchat-steam-and-more-in-us/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0104",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "netflix",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Some users encountered sign-in errors/timeouts.",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0105",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "hulu",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Sign-in failures coincident with streaming outage.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.laughingplace.com/entertainment/aws-outage-causes-disruption-for-disney-apps-and-streaming/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0106",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "prime-video",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Prime Video authentication intermittently failed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/technology/aws-outage-crashes-amazon-prime-video-fortnite-perplexity-and-more/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0107",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "crunchyroll",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Account login returned errors for many users.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0108",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "max",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Max sign-in failures/timeouts during outage window.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://hollywoodlife.com/2025/10/20/amazon-aws-outage-status-updates/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0109",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "apple-tv-plus",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Apple TV login requests intermittently failed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0110",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "trello",
+      "featureId": "api",
+      "impactType": "degraded",
+      "description": "3rd-party integrations/bots saw elevated API errors.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.atlassian.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0111",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "life360",
+      "featureId": "notifications",
+      "impactType": "degraded",
+      "description": "Place/safety alerts delayed or failed to deliver.",
+      "verificationStatus": "verified",
+      "sourceUrl": "",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0112",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "ring",
+      "featureId": "notifications",
+      "impactType": "degraded",
+      "description": "Motion/doorbell alerts delayed; push delivery issues.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0113",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "blink",
+      "featureId": "notifications",
+      "impactType": "degraded",
+      "description": "Motion alerts intermittently failed during outage.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.pcworld.com/article/2947084/the-aws-outage-took-down-my-ring-cam-and-everyone-elses-too.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0114",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "delta",
+      "featureId": "check-in",
+      "impactType": "degraded",
+      "description": "Online/mobile check-in unstable; erroring for some users.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.cnbc.com/2025/10/20/amazon-web-services-outage-hits-airline-websites-other-major-sites.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0115",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "united-airlines",
+      "featureId": "booking",
+      "impactType": "degraded",
+      "description": "Flight search/purchase intermittently failed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://skift.com/2025/10/20/united-airlines-among-major-companies-hit-by-amazon-web-outage/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0116",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "southwest",
+      "featureId": "check-in",
+      "impactType": "degraded",
+      "description": "Check-in attempts returned errors/timeouts.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://aviationsourcenews.com/aws-outage-disrupts-delta-united-and-southwest-websites/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0117",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "perplexity",
+      "featureId": "search",
+      "impactType": "degraded",
+      "description": "Answer/search requests failed or timed out.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/technology/aws-outage-crashes-amazon-prime-video-fortnite-perplexity-and-more/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0118",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "slack",
+      "featureId": "calls",
+      "impactType": "degraded",
+      "description": "Huddles/calls experienced connection failures.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.slack.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0119",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "zoom",
+      "featureId": "screen-sharing",
+      "impactType": "degraded",
+      "description": "Screen sharing unreliable; sessions dropped.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.techradar.com/pro/live/aws-down-zoom-slack-signal-and-more-all-hit",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0120",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "nytimes",
+      "featureId": "login",
+      "impactType": "degraded",
+      "description": "Subscriber authentication intermittently failed.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-down-outage-gaming-fortnite-rooblox-wordle-october-2025",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0121",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "collegeboard",
+      "featureId": "sign-in",
+      "impactType": "degraded",
+      "description": "Sign-in requests errored while site access was unstable.",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.edweek.org/technology/aws-outage-hit-schools-hard-how-to-prepare-for-the-next-tech-meltdown/2025/10",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0001",
       "eventId": "aws-useast1-2025-10-20",
       "serviceId": "snapchat",
       "featureId": "snap-delivery",
       "impactType": "full_outage",
-      "description": "Users unable to send or receive snaps",
+      "description": "Users unable to send or receive snaps during outage window",
       "verificationStatus": "verified",
-      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/is-snapchat-down-aws-internet-outage/",
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-005",
+      "id": "impact-0002",
       "eventId": "aws-useast1-2025-10-20",
       "serviceId": "snapchat",
       "featureId": "stories",
       "impactType": "full_outage",
-      "description": "Stories failed to load",
+      "description": "Stories failed to load for many users",
       "verificationStatus": "verified",
-      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/amazon-web-services-outage-websites-offline-rcna238594",
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-006",
+      "id": "impact-0003",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "alexa",
-      "featureId": "voice-commands",
+      "serviceId": "reddit",
+      "featureId": "site-access",
       "impactType": "full_outage",
-      "description": "Alexa devices unresponsive to commands",
+      "description": "Website and app intermittently unavailable; elevated errors",
       "verificationStatus": "verified",
-      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceUrl": null,
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-007",
+      "id": "impact-0004",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "alexa",
-      "featureId": "smart-home",
-      "impactType": "full_outage",
-      "description": "Smart home control unavailable",
-      "verificationStatus": "verified",
-      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
-      "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-008",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "chatgpt",
-      "featureId": "chat-interface",
-      "impactType": "full_outage",
-      "description": "ChatGPT web interface unavailable",
-      "verificationStatus": "verified",
-      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
-      "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-009",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "chatgpt",
-      "featureId": "api",
+      "serviceId": "discord",
+      "featureId": "messaging",
       "impactType": "degraded",
-      "description": "API experiencing elevated error rates",
+      "description": "Messages delayed but eventually delivered",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.openai.com",
+      "sourceUrl": "https://discordstatus.com",
       "sourceType": "official_status_page",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-010",
+      "id": "impact-0005",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "slack",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Workspace connectivity issues and message failures",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://slack-status.com/2025-10/51d84290cf5c8e22",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0006",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "zoom",
+      "featureId": "video-calls",
+      "impactType": "degraded",
+      "description": "Users experienced difficulty joining meetings and drops",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0007",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "att",
+      "featureId": "network-services",
+      "impactType": "degraded",
+      "description": "Customer reports of connectivity/account issues in parallel with outage",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0008",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "fortnite",
+      "featureId": "matchmaking",
+      "impactType": "full_outage",
+      "description": "Unable to join or start matches",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0009",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "fortnite",
+      "featureId": "login",
+      "impactType": "full_outage",
+      "description": "Authentication to game services failed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0010",
       "eventId": "aws-useast1-2025-10-20",
       "serviceId": "roblox",
       "featureId": "game-access",
       "impactType": "full_outage",
       "description": "Unable to launch or join games",
       "verificationStatus": "verified",
-      "sourceUrl": "https://techradar.com/aws-outage-gaming",
-      "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-011",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "roblox",
-      "featureId": "catalog",
-      "impactType": "full_outage",
-      "description": "Catalog and marketplace unavailable",
-      "verificationStatus": "verified",
-      "sourceUrl": "https://techradar.com/aws-outage-gaming",
-      "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-012",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "discord",
-      "featureId": "messaging",
-      "impactType": "degraded",
-      "description": "Messages delayed but eventually delivered",
-      "verificationStatus": "user_reported",
-      "sourceUrl": "https://twitter.com/discord/status/xyz",
-      "sourceType": "social_media",
-      "createdAt": "2025-10-23T10:00:00Z"
-    },
-    {
-      "id": "impact-013",
-      "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "discord",
-      "featureId": "voice-chat",
-      "impactType": "no_impact",
-      "description": "Voice chat remained stable throughout outage",
-      "verificationStatus": "verified",
-      "sourceUrl": "https://discordstatus.com",
+      "sourceUrl": "https://status.roblox.com",
       "sourceType": "official_status_page",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-014",
+      "id": "impact-0011",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-games-store",
+      "featureId": "storefront",
+      "impactType": "full_outage",
+      "description": "Storefront inaccessible",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0012",
       "eventId": "aws-useast1-2025-10-20",
       "serviceId": "wordle",
       "featureId": "daily-puzzle",
       "impactType": "full_outage",
       "description": "Daily puzzle failed to load",
       "verificationStatus": "verified",
-      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-down-outage-gaming-fortnite-rooblox-wordle-october-2025",
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-015",
+      "id": "impact-0013",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "epic-games-store",
+      "serviceId": "twitch",
+      "featureId": "streaming",
+      "impactType": "full_outage",
+      "description": "Streams would not load; login failures observed",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.twitch.tv",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0014",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "netflix",
+      "featureId": "video-playback",
+      "impactType": "degraded",
+      "description": "Playback errors and timeouts for some users",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0015",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "hulu",
+      "featureId": "video-playback",
+      "impactType": "full_outage",
+      "description": "Unable to play content during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.laughingplace.com/entertainment/aws-outage-causes-disruption-for-disney-apps-and-streaming/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0016",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "prime-video",
+      "featureId": "video-playback",
+      "impactType": "full_outage",
+      "description": "Prime Video unavailable for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/technology/aws-outage-crashes-amazon-prime-video-fortnite-perplexity-and-more/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0017",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "amazon",
       "featureId": "storefront",
-      "impactType": "full_outage",
-      "description": "Store completely inaccessible",
+      "impactType": "degraded",
+      "description": "Pages slow to load or erroring",
       "verificationStatus": "verified",
-      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-service-disruptions-outage-update",
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
     },
     {
-      "id": "impact-016",
+      "id": "impact-0018",
       "eventId": "aws-useast1-2025-10-20",
-      "serviceId": "epic-games-store",
-      "featureId": "downloads",
-      "impactType": "full_outage",
-      "description": "Unable to download or update games",
+      "serviceId": "amazon",
+      "featureId": "checkout",
+      "impactType": "degraded",
+      "description": "Checkout intermittently failed",
       "verificationStatus": "verified",
-      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-service-disruptions-outage-update",
       "sourceType": "news_article",
-      "createdAt": "2025-10-23T10:00:00Z"
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0019",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "mcdonalds",
+      "featureId": "ordering",
+      "impactType": "full_outage",
+      "description": "Mobile ordering unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0020",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "shopify",
+      "featureId": "merchant-storefronts",
+      "impactType": "degraded",
+      "description": "Hosted stores intermittently down or slow",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.shopifystatus.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0021",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "square",
+      "featureId": "payments",
+      "impactType": "full_outage",
+      "description": "Merchants unable to process payments",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.squareup.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0022",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "paypal",
+      "featureId": "payments",
+      "impactType": "full_outage",
+      "description": "Payments failed for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.paypal-status.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0023",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "venmo",
+      "featureId": "p2p-payments",
+      "impactType": "full_outage",
+      "description": "Unable to send or receive money",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.venmo.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0024",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "coinbase",
+      "featureId": "trading",
+      "impactType": "full_outage",
+      "description": "Trading platform unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.coinbase.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0025",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "robinhood",
+      "featureId": "trading",
+      "impactType": "full_outage",
+      "description": "Users unable to place trades",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.robinhood.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0026",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "lloyds-bank",
+      "featureId": "online-banking",
+      "impactType": "full_outage",
+      "description": "Online banking unavailable for customers",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.ibtimes.co.uk/aws-outage-affects-major-uk-banks-what-do-if-you-missed-payments-1748962",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0027",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "hmrc",
+      "featureId": "website-access",
+      "impactType": "full_outage",
+      "description": "Government tax site down",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.computerweekly.com/news/366633473/Government-faces-questions-about-why-US-AWS-outage-disrupted-UK-tax-office-and-banking-firms",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0028",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "delta",
+      "featureId": "booking",
+      "impactType": "degraded",
+      "description": "Website intermittently offline; booking failures",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.cnbc.com/2025/10/20/amazon-web-services-outage-hits-airline-websites-other-major-sites.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0029",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "united-airlines",
+      "featureId": "check-in",
+      "impactType": "degraded",
+      "description": "Mobile/online check-in unavailable for some users",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://skift.com/2025/10/20/united-airlines-among-major-companies-hit-by-amazon-web-outage/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0030",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "southwest",
+      "featureId": "booking",
+      "impactType": "degraded",
+      "description": "Intermittent errors when searching/purchasing flights",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://simpleflying.com/thousands-of-passengers-see-disrupted-check-in-due-to-aws-outage/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0031",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "lyft",
+      "featureId": "ride-hailing",
+      "impactType": "full_outage",
+      "description": "Ride requests failing for many users",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0032",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "strava",
+      "featureId": "activity-sync",
+      "impactType": "full_outage",
+      "description": "Uploads and sync failed",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0033",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "alexa",
+      "featureId": "voice-commands",
+      "impactType": "full_outage",
+      "description": "Echo devices unresponsive to commands",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.engadget.com/big-tech/amazons-aws-outage-has-knocked-services-like-alexa-snapchat-fortnite-venmo-and-more-offline-142935812.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0034",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "alexa",
+      "featureId": "smart-home",
+      "impactType": "full_outage",
+      "description": "Smart home control unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.engadget.com/big-tech/amazons-aws-outage-has-knocked-services-like-alexa-snapchat-fortnite-venmo-and-more-offline-142935812.html",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0035",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "ring",
+      "featureId": "video-stream",
+      "impactType": "full_outage",
+      "description": "Live and recorded video inaccessible",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/amazon-web-services-outage-websites-offline-rcna238594",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0036",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "eight-sleep",
+      "featureId": "bed-control",
+      "impactType": "full_outage",
+      "description": "App-controlled bed features unresponsive",
+      "verificationStatus": "verified",
+      "sourceUrl": null,
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0037",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "life360",
+      "featureId": "location-updates",
+      "impactType": "full_outage",
+      "description": "Real-time location unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0038",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "chatgpt",
+      "featureId": "chat-interface",
+      "impactType": "full_outage",
+      "description": "ChatGPT web interface unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.openai.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0039",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "chatgpt",
+      "featureId": "api",
+      "impactType": "degraded",
+      "description": "Elevated API error rates",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.openai.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-24T00:00:00Z"
+    },
+    {
+      "id": "impact-0040",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "perplexity",
+      "featureId": "answers",
+      "impactType": "full_outage",
+      "description": "Answer engine unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.perplexity.com/cmgys58bg00phtnwejry53dud",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-24T00:00:00Z"
     }
   ]
 }
