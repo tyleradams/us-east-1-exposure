@@ -1715,7 +1715,7 @@
       "impactType": "degraded",
       "description": "Online multiplayer and store features intermittently unavailable",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.playstation.com",
+      "sourceUrl": "https://www.pushsquare.com/news/2025/10/psn-services-stabilise-after-global-aws-outage-caused-chaos-around-the-world",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -1727,7 +1727,7 @@
       "impactType": "degraded",
       "description": "Reports of multiplayer instability and login issues aligning with AWS outage window",
       "verificationStatus": "verified",
-      "sourceUrl": "https://support.xbox.com/xbox-live-status",
+      "sourceUrl": "https://www.gamingbible.com/news/xbox-live-playstation-network-down-aws-servers-300050-20251020",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -1823,7 +1823,7 @@
       "impactType": "full_outage",
       "description": "Boards and cards inaccessible for a period",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.atlassian.com",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -1907,7 +1907,7 @@
       "impactType": "full_outage",
       "description": "Account/entitlement auth unavailable; downstream game logins failed",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2075,7 +2075,7 @@
       "impactType": "degraded",
       "description": "Sign-in attempts erroring while streaming was down",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.twitch.tv",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2159,7 +2159,7 @@
       "impactType": "degraded",
       "description": "PSN Store intermittently unreachable",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.playstation.com",
+      "sourceUrl": "https://www.pushsquare.com/news/2025/10/psn-services-stabilise-after-global-aws-outage-caused-chaos-around-the-world",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2171,7 +2171,7 @@
       "impactType": "degraded",
       "description": "PSN login errors observed during outage window",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.playstation.com",
+      "sourceUrl": "https://www.pushsquare.com/news/2025/10/psn-services-stabilise-after-global-aws-outage-caused-chaos-around-the-world",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2183,7 +2183,7 @@
       "impactType": "degraded",
       "description": "Xbox sign-in instability coincident with AWS outage",
       "verificationStatus": "verified",
-      "sourceUrl": "https://support.xbox.com/xbox-live-status",
+      "sourceUrl": "https://www.gamingbible.com/news/xbox-live-playstation-network-down-aws-servers-300050-20251020",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2339,7 +2339,7 @@
       "impactType": "degraded",
       "description": "Transfers experienced delays and failures",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.coinbase.com",
+      "sourceUrl": "https://fortune.com/crypto/2025/10/20/coinbase-robinhood-aws-outage-snapchat-hulu-crypto-services/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2363,7 +2363,7 @@
       "impactType": "no_impact",
       "description": "Voice channels stable while messaging was delayed.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://discordstatus.com",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2375,7 +2375,7 @@
       "impactType": "full_outage",
       "description": "Avatar shop and marketplace unavailable.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.roblox.com",
+      "sourceUrl": "https://www.pcgamer.com/software/aws-outage-affecting-fortnite-roblox-reddit-and-many-others-is-close-to-fixed-with-amazon-saying-services-are-showing-significant-signs-of-recovery/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2387,7 +2387,7 @@
       "impactType": "degraded",
       "description": "Friends/party services unreliable; intermittent errors.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2399,7 +2399,7 @@
       "impactType": "full_outage",
       "description": "Session/match orchestration failed during outage window.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2495,7 +2495,7 @@
       "impactType": "degraded",
       "description": "3rd-party integrations/bots saw elevated API errors.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.atlassian.com",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2591,7 +2591,7 @@
       "impactType": "degraded",
       "description": "Huddles/calls experienced connection failures.",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.slack.com",
+      "sourceUrl": "https://slack-status.com/2025-10/51d84290cf5c8e22",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2675,7 +2675,7 @@
       "impactType": "degraded",
       "description": "Messages delayed but eventually delivered",
       "verificationStatus": "verified",
-      "sourceUrl": "https://discordstatus.com",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2723,7 +2723,7 @@
       "impactType": "full_outage",
       "description": "Unable to join or start matches",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2735,7 +2735,7 @@
       "impactType": "full_outage",
       "description": "Authentication to game services failed",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2747,7 +2747,7 @@
       "impactType": "full_outage",
       "description": "Unable to launch or join games",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.roblox.com",
+      "sourceUrl": "https://www.pcgamer.com/software/aws-outage-affecting-fortnite-roblox-reddit-and-many-others-is-close-to-fixed-with-amazon-saying-services-are-showing-significant-signs-of-recovery/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2759,7 +2759,7 @@
       "impactType": "full_outage",
       "description": "Storefront inaccessible",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.epicgames.com",
+      "sourceUrl": "https://www.techradar.com/news/live/amazon-web-services-alexa-ring-snapchat-fortnite-down-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2783,7 +2783,7 @@
       "impactType": "full_outage",
       "description": "Streams would not load; login failures observed",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.twitch.tv",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2867,7 +2867,7 @@
       "impactType": "degraded",
       "description": "Hosted stores intermittently down or slow",
       "verificationStatus": "verified",
-      "sourceUrl": "https://www.shopifystatus.com",
+      "sourceUrl": "https://isdown.app/status/shopify/incidents/461351-due-to-an-aws-outage-some-users-may-encounter-issues-with-a-number-of-shopify-services",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2879,7 +2879,7 @@
       "impactType": "full_outage",
       "description": "Merchants unable to process payments",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.squareup.com",
+      "sourceUrl": "https://dataconomy.com/2025/10/20/aws-outage-a-complete-list-of-every-site-and-app-that-went-down/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2891,7 +2891,7 @@
       "impactType": "full_outage",
       "description": "Payments failed for many users",
       "verificationStatus": "verified",
-      "sourceUrl": "https://www.paypal-status.com",
+      "sourceUrl": "https://www.techradar.com/news/live/paypal-venmo-outage-october-2025",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2903,7 +2903,7 @@
       "impactType": "full_outage",
       "description": "Unable to send or receive money",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.venmo.com",
+      "sourceUrl": "https://www.engadget.com/big-tech/amazons-aws-outage-has-knocked-services-like-alexa-snapchat-fortnite-venmo-and-more-offline-142935812.html",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2915,7 +2915,7 @@
       "impactType": "full_outage",
       "description": "Trading platform unavailable",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.coinbase.com",
+      "sourceUrl": "https://fortune.com/crypto/2025/10/20/coinbase-robinhood-aws-outage-snapchat-hulu-crypto-services/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -2927,7 +2927,7 @@
       "impactType": "full_outage",
       "description": "Users unable to place trades",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.robinhood.com",
+      "sourceUrl": "https://fortune.com/crypto/2025/10/20/coinbase-robinhood-aws-outage-snapchat-hulu-crypto-services/",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -3083,7 +3083,7 @@
       "impactType": "full_outage",
       "description": "ChatGPT web interface unavailable",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.openai.com",
+      "sourceUrl": "https://www.inc.com/jason-aten/an-aws-outage-took-down-snapchat-fortnite-and-chatgpt-and-showed-how-fragile-everything-really-is/91253901",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
@@ -3095,7 +3095,7 @@
       "impactType": "degraded",
       "description": "Elevated API error rates",
       "verificationStatus": "verified",
-      "sourceUrl": "https://status.openai.com",
+      "sourceUrl": "https://www.inc.com/jason-aten/an-aws-outage-took-down-snapchat-fortnite-and-chatgpt-and-showed-how-fragile-everything-really-is/91253901",
       "sourceType": "official_status_page",
       "createdAt": "2025-10-24T00:00:00Z"
     },
