@@ -1,0 +1,389 @@
+{
+  "lastUpdated": "2025-10-23T12:00:00Z",
+  "events": [
+    {
+      "id": "aws-useast1-2025-10-20",
+      "date": "2025-10-20T14:30:00Z",
+      "title": "US-EAST-1 DNS/DynamoDB Outage",
+      "description": "AWS US-EAST-1 region experienced DNS and DynamoDB service failures causing widespread downstream impact",
+      "awsServicesAffected": ["Route53", "DynamoDB"],
+      "sources": [
+        {
+          "url": "https://health.aws.amazon.com/health/status",
+          "type": "aws_health_dashboard",
+          "createdAt": "2025-10-20T16:00:00Z"
+        },
+        {
+          "url": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+          "type": "news_article",
+          "createdAt": "2025-10-20T17:30:00Z"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "company": "Epic Games",
+      "logoUrl": "https://logo.clearbit.com/epicgames.com",
+      "url": "https://fortnite.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "matchmaking",
+          "name": "Matchmaking",
+          "description": "Ability to join and start game matches"
+        },
+        {
+          "id": "friend-messaging",
+          "name": "Friend Messaging",
+          "description": "In-game chat and friend communication"
+        },
+        {
+          "id": "item-shop",
+          "name": "Item Shop",
+          "description": "In-game store for purchasing cosmetics"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "company": "Snap Inc",
+      "logoUrl": "https://logo.clearbit.com/snapchat.com",
+      "url": "https://snapchat.com",
+      "category": "social",
+      "features": [
+        {
+          "id": "snap-delivery",
+          "name": "Snap Delivery",
+          "description": "Sending and receiving snaps"
+        },
+        {
+          "id": "stories",
+          "name": "Stories",
+          "description": "Viewing and posting stories"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "alexa",
+      "name": "Alexa",
+      "company": "Amazon",
+      "logoUrl": "https://logo.clearbit.com/amazon.com",
+      "url": "https://alexa.amazon.com",
+      "category": "voice_assistant",
+      "features": [
+        {
+          "id": "voice-commands",
+          "name": "Voice Commands",
+          "description": "Processing voice requests and commands"
+        },
+        {
+          "id": "smart-home",
+          "name": "Smart Home Control",
+          "description": "Controlling smart home devices"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "company": "OpenAI",
+      "logoUrl": "https://logo.clearbit.com/openai.com",
+      "url": "https://chat.openai.com",
+      "category": "ai",
+      "features": [
+        {
+          "id": "chat-interface",
+          "name": "Chat Interface",
+          "description": "Main conversational interface"
+        },
+        {
+          "id": "api",
+          "name": "API",
+          "description": "ChatGPT API access"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "company": "Roblox Corporation",
+      "logoUrl": "https://logo.clearbit.com/roblox.com",
+      "url": "https://roblox.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "game-access",
+          "name": "Game Access",
+          "description": "Ability to launch and play games"
+        },
+        {
+          "id": "catalog",
+          "name": "Catalog",
+          "description": "Avatar shop and marketplace"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "company": "Discord Inc",
+      "logoUrl": "https://logo.clearbit.com/discord.com",
+      "url": "https://discord.com",
+      "category": "communication",
+      "features": [
+        {
+          "id": "messaging",
+          "name": "Messaging",
+          "description": "Text chat and DMs"
+        },
+        {
+          "id": "voice-chat",
+          "name": "Voice Chat",
+          "description": "Voice channels and calls"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "wordle",
+      "name": "Wordle",
+      "company": "The New York Times",
+      "logoUrl": "https://logo.clearbit.com/nytimes.com",
+      "url": "https://www.nytimes.com/games/wordle",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "daily-puzzle",
+          "name": "Daily Puzzle",
+          "description": "Access to daily word puzzle"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "epic-games-store",
+      "name": "Epic Games Store",
+      "company": "Epic Games",
+      "logoUrl": "https://logo.clearbit.com/epicgames.com",
+      "url": "https://store.epicgames.com",
+      "category": "gaming",
+      "features": [
+        {
+          "id": "storefront",
+          "name": "Storefront",
+          "description": "Browse and purchase games"
+        },
+        {
+          "id": "downloads",
+          "name": "Game Downloads",
+          "description": "Download and update games"
+        }
+      ],
+      "createdAt": "2025-10-23T10:00:00Z"
+    }
+  ],
+  "eventImpacts": [
+    {
+      "id": "impact-001",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "fortnite",
+      "featureId": "matchmaking",
+      "impactType": "full_outage",
+      "description": "Matchmaking completely unavailable during outage window",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com/incidents/xyz",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-002",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "fortnite",
+      "featureId": "friend-messaging",
+      "impactType": "no_impact",
+      "description": "Messaging remained operational throughout outage",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.epicgames.com/incidents/xyz",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-003",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "fortnite",
+      "featureId": "item-shop",
+      "impactType": "degraded",
+      "description": "Slow load times but purchases still processed",
+      "verificationStatus": "user_reported",
+      "sourceUrl": "https://reddit.com/r/FortNiteBR/comments/xyz",
+      "sourceType": "user_reports",
+      "createdAt": "2025-10-23T11:30:00Z"
+    },
+    {
+      "id": "impact-004",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "snapchat",
+      "featureId": "snap-delivery",
+      "impactType": "full_outage",
+      "description": "Users unable to send or receive snaps",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-005",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "snapchat",
+      "featureId": "stories",
+      "impactType": "full_outage",
+      "description": "Stories failed to load",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-006",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "alexa",
+      "featureId": "voice-commands",
+      "impactType": "full_outage",
+      "description": "Alexa devices unresponsive to commands",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-007",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "alexa",
+      "featureId": "smart-home",
+      "impactType": "full_outage",
+      "description": "Smart home control unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-008",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "chatgpt",
+      "featureId": "chat-interface",
+      "impactType": "full_outage",
+      "description": "ChatGPT web interface unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://www.theverge.com/2025/10/20/aws-outage-us-east-1",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-009",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "chatgpt",
+      "featureId": "api",
+      "impactType": "degraded",
+      "description": "API experiencing elevated error rates",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://status.openai.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-010",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "roblox",
+      "featureId": "game-access",
+      "impactType": "full_outage",
+      "description": "Unable to launch or join games",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-011",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "roblox",
+      "featureId": "catalog",
+      "impactType": "full_outage",
+      "description": "Catalog and marketplace unavailable",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-012",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "discord",
+      "featureId": "messaging",
+      "impactType": "degraded",
+      "description": "Messages delayed but eventually delivered",
+      "verificationStatus": "user_reported",
+      "sourceUrl": "https://twitter.com/discord/status/xyz",
+      "sourceType": "social_media",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-013",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "discord",
+      "featureId": "voice-chat",
+      "impactType": "no_impact",
+      "description": "Voice chat remained stable throughout outage",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://discordstatus.com",
+      "sourceType": "official_status_page",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-014",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "wordle",
+      "featureId": "daily-puzzle",
+      "impactType": "full_outage",
+      "description": "Daily puzzle failed to load",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-015",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-games-store",
+      "featureId": "storefront",
+      "impactType": "full_outage",
+      "description": "Store completely inaccessible",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    },
+    {
+      "id": "impact-016",
+      "eventId": "aws-useast1-2025-10-20",
+      "serviceId": "epic-games-store",
+      "featureId": "downloads",
+      "impactType": "full_outage",
+      "description": "Unable to download or update games",
+      "verificationStatus": "verified",
+      "sourceUrl": "https://techradar.com/aws-outage-gaming",
+      "sourceType": "news_article",
+      "createdAt": "2025-10-23T10:00:00Z"
+    }
+  ]
+}
